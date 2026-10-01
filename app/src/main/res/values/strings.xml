@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Quản Lý Sinh Viên</string>
+    <string name="toolbar_subtitle">Danh sách sinh viên</string>
+
+    <!-- Tab titles -->
+    <string name="tab_list_view">Danh sách</string>
+    <string name="tab_grid_view">Lưới</string>
+
+    <!-- Labels -->
+    <string name="label_ho_ten">Họ và tên</string>
+    <string name="label_email">Email</string>
+    <string name="label_ngay_sinh">Ngày sinh</string>
+    <string name="label_gioi_tinh">Giới tính</string>
+    <string name="label_id">Mã SV</string>
+
+    <!-- Gender -->
+    <string name="gender_nam">Nam</string>
+    <string name="gender_nu">Nữ</string>
+
+    <!-- Buttons -->
+    <string name="btn_add">Thêm</string>
+    <string name="btn_edit">Sửa</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Huỷ</string>
+    <string name="btn_confirm">Xác nhận</string>
+
+    <!-- Dialog titles -->
+    <string name="dialog_add_title">Thêm sinh viên mới</string>
+    <string name="dialog_edit_title">Cập nhật sinh viên</string>
+    <string name="dialog_delete_title">Xác nhận xoá</string>
+    <string name="dialog_delete_msg">Bạn có chắc muốn xoá sinh viên \"%s\" không?</string>
+
+    <!-- Activity titles -->
+    <string name="title_detail">Chi tiết sinh viên</string>
+
+    <!-- Search -->
+    <string name="hint_search">Tìm kiếm theo tên hoặc email…</string>
+
+    <!-- Count -->
+    <string name="count_students">Tổng: %d sinh viên</string>
+
+    <!-- Toast messages -->
+    <string name="toast_added">Đã thêm sinh viên thành công!</string>
+    <string name="toast_updated">Đã cập nhật thành công!</string>
+    <string name="toast_deleted">Đã xoá sinh viên!</string>
+    <string name="toast_fill_all">Vui lòng điền đầy đủ thông tin!</string>
+    <string name="toast_invalid_email">Email không hợp lệ!</string>
+    <string name="toast_invalid_date">Ngày sinh không hợp lệ! (dd/MM/yyyy)</string>
+
+    <!-- Menu -->
+    <string name="menu_sort_name">Sắp xếp theo tên</string>
+    <string name="menu_sort_id">Sắp xếp theo mã SV</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_avatar">Ảnh đại diện sinh viên</string>
+    <string name="cd_edit">Sửa thông tin</string>
+    <string name="cd_delete">Xoá sinh viên</string>
+    <string name="cd_add_student">Thêm sinh viên mới</string>
+</resources>

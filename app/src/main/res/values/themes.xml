@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme – dùng Material3 với ActionBar ẩn (quản lý bởi Toolbar) -->
+    <style name="Base.Theme.Lab3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="Theme.Lab3" parent="Base.Theme.Lab3" />
+
+    <!-- Overlay tối cho Toolbar (để title/icon màu trắng) -->
+    <style name="ThemeOverlay.Material3.Dark.ActionBar"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+</resources>
